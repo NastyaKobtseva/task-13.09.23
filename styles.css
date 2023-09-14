@@ -1,0 +1,99 @@
+.container-one {
+  display: flex;
+  gap: 10px;
+  height: 100vh;
+}
+
+.flex-item {
+  background-color: rgb(255, 0, 234);
+  flex: 1 1 15%;
+  height: 100px;
+}
+
+.flex-item2 {
+  background-color: red;
+  flex: 1 1 15%;
+  height: 100px;
+  order: 2;
+}
+
+.flex-item3 {
+  background-color: blue;
+  flex: 1 1 15%;
+  height: 100px;
+  order: 3;
+}
+
+.flex-item4 {
+    background-color: rgb(0, 255, 0);
+    flex: 1 1 15%;
+    height: 100px;
+}
+
+.flex-item5 {
+    background-color: rgb(242, 255, 0);
+    flex: 1 1 15%;
+    height: 100px;
+}
+
+.container-two {
+  display: flex;
+  width: 70%;
+  gap: 10px;
+  height: 100vh;
+}
+
+.flex-item-two {
+    background-color: rgb(255, 0, 0);
+    flex: 1 1 15%;
+    height: 100px;
+    order: 5;
+}
+
+.flex-item-two2 {
+    background-color: rgb(255, 0, 221);
+    flex: 1 1 15%;
+    height: 100px;
+    order: -1;
+}
+
+.flex-item-two3 {
+    background-color: rgb(0, 255, 234);
+    flex: 1 1 15%;
+    height: 100px;
+    order: 1;
+}
+
+.flex-item-two4 {
+    background-color: rgb(0, 255, 38);
+    flex: 1 1 15%;
+    height: 100px;
+    order: 2;
+}
+
+/* container-theree */
+
+.container-theree {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100vh;
+}
+
+.flex-item-theree {
+  background-color: gray;
+  height: 100px;
+  order: 2;
+}
+
+.flex-item-theree2 {
+    background-color: blue;
+    height: 100px;
+    order: 99;
+}
+
+.flex-item-theree3 {
+    background-color: rgb(0, 255, 238);
+    height: 100px;
+    order: 2;
+}
